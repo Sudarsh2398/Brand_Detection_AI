@@ -27,7 +27,7 @@ DB_CONFIG = {
     'host': os.getenv('PG_HOST', 'localhost'),
     'database': os.getenv('PG_DB', 'brand_detection'),
     'user': os.getenv('PG_USER', 'postgres'),
-    'password': os.getenv('PG_PASS', 'vino123'),
+    'password': os.getenv('PG_PASS'),
     'port': int(os.getenv('PG_PORT', 5432))
 }
 
